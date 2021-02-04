@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hlr/dev/myproject/compiler/main.cpp
+iostream
+-
+array
+-
+utils/command/CompileAssemblyCommand.h
+/home/hlr/dev/myproject/compiler/utils/command/CompileAssemblyCommand.h
+utils/command/CommandInvoker.h
+/home/hlr/dev/myproject/compiler/utils/command/CommandInvoker.h
+memory
+-
+
+/home/hlr/dev/myproject/compiler/utils/command/Command.h
+
+/home/hlr/dev/myproject/compiler/utils/command/CommandInvoker.h
+memory
+-
+Command.h
+/home/hlr/dev/myproject/compiler/utils/command/Command.h
+
+/home/hlr/dev/myproject/compiler/utils/command/CompileAssemblyCommand.h
+Command.h
+/home/hlr/dev/myproject/compiler/utils/command/Command.h
+vector
+-
+string
+-
+
