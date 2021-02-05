@@ -13,7 +13,7 @@ public:
     virtual TokenType type() = 0;
     virtual void setType(TokenType type) = 0;
     virtual TokenValue value() = 0;
-    virtual void setValue(int value) = 0;
+    virtual void setValue(TokenValue value) = 0;
     virtual ~Token() = 0;
 };
 

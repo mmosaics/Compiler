@@ -10,8 +10,8 @@ void SimpleLexer::scan() {
 
 SimpleLexer::SimpleLexer(std::string sourceFile) {
     Infile = fopen(sourceFile.c_str(), "r");
+    TextLimit = 32;
 }
 
-Token SimpleLexer::token() {
 
-}
+

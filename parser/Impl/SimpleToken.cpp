@@ -12,10 +12,10 @@ void SimpleToken::setType(TokenType type) {
     SimpleToken::tokenType = type;
 }
 
-int SimpleToken::value() {
+TokenValue SimpleToken::value() {
     return val;
 }
 
-void SimpleToken::setValue(int value) {
+void SimpleToken::setValue(TokenValue value) {
     val = value;
 }

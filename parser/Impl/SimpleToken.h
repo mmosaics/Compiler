@@ -20,7 +20,7 @@ public:
 
     TokenValue value() override;
 
-    void setValue(int value) override;
+    void setValue(TokenValue value) override;
 
 };
 

@@ -31,7 +31,13 @@ public:
     void scan() override;
 
 private:
+    //Get next char
+    int next();
 
+    //Put back a char
+    void putback(char c);
+
+    //
 
 };
 
