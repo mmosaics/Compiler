@@ -11,12 +11,48 @@ CMakeFiles/compiler.dir/main.cpp.o
  /home/hlr/dev/myproject/compiler/main.cpp
  /home/hlr/dev/myproject/compiler/utils/command/Command.h
  /home/hlr/dev/myproject/compiler/utils/command/CommandInvoker.h
- /home/hlr/dev/myproject/compiler/utils/command/CompileAssemblyCommand.h
+CMakeFiles/compiler.dir/parser/Impl/SimpleLexer.cpp.o
+ /home/hlr/dev/myproject/compiler/parser/Impl/SimpleLexer.cpp
+ /home/hlr/dev/myproject/compiler/parser/Impl/SimpleLexer.h
+ /home/hlr/dev/myproject/compiler/parser/Lexer.h
+ /home/hlr/dev/myproject/compiler/parser/Token.h
+ /home/hlr/dev/myproject/compiler/parser/TokenType.h
+ /home/hlr/dev/myproject/compiler/parser/TokenValue.h
+CMakeFiles/compiler.dir/parser/Impl/SimpleToken.cpp.o
+ /home/hlr/dev/myproject/compiler/parser/Impl/SimpleToken.cpp
+ /home/hlr/dev/myproject/compiler/parser/Impl/SimpleToken.h
+ /home/hlr/dev/myproject/compiler/parser/Token.h
+ /home/hlr/dev/myproject/compiler/parser/TokenType.h
+ /home/hlr/dev/myproject/compiler/parser/TokenValue.h
+CMakeFiles/compiler.dir/parser/Impl/TopDownParser.cpp.o
+ /home/hlr/dev/myproject/compiler/ast/AST.h
+ /home/hlr/dev/myproject/compiler/parser/Impl/TopDownParser.cpp
+ /home/hlr/dev/myproject/compiler/parser/Impl/TopDownParser.h
+ /home/hlr/dev/myproject/compiler/parser/Lexer.h
+ /home/hlr/dev/myproject/compiler/parser/Parser.h
+ /home/hlr/dev/myproject/compiler/parser/Token.h
+ /home/hlr/dev/myproject/compiler/parser/TokenType.h
+ /home/hlr/dev/myproject/compiler/parser/TokenValue.h
+CMakeFiles/compiler.dir/sys/Impl/GNUAssembler.cpp.o
+ /home/hlr/dev/myproject/compiler/sys/Impl/GNUAssembler.cpp
+ /home/hlr/dev/myproject/compiler/sys/Impl/GNUAssembler.h
+CMakeFiles/compiler.dir/sys/Impl/GNUCodeGenerator.cpp.o
+ /home/hlr/dev/myproject/compiler/sys/Impl/GNUCodeGenerator.cpp
+ /home/hlr/dev/myproject/compiler/sys/Impl/GNUCodeGenerator.h
+CMakeFiles/compiler.dir/sys/Impl/GNULinker.cpp.o
+ /home/hlr/dev/myproject/compiler/sys/Impl/GNULinker.cpp
+ /home/hlr/dev/myproject/compiler/sys/Impl/GNULinker.h
+CMakeFiles/compiler.dir/sys/Impl/X86Linux.cpp.o
+ /home/hlr/dev/myproject/compiler/sys/Assembler.h
+ /home/hlr/dev/myproject/compiler/sys/CodeGenerator.h
+ /home/hlr/dev/myproject/compiler/sys/Impl/X86Linux.cpp
+ /home/hlr/dev/myproject/compiler/sys/Impl/X86Linux.h
+ /home/hlr/dev/myproject/compiler/sys/Linker.h
+ /home/hlr/dev/myproject/compiler/sys/Platform.h
 CMakeFiles/compiler.dir/utils/command/CommandInvoker.cpp.o
  /home/hlr/dev/myproject/compiler/utils/command/Command.h
  /home/hlr/dev/myproject/compiler/utils/command/CommandInvoker.cpp
  /home/hlr/dev/myproject/compiler/utils/command/CommandInvoker.h
-CMakeFiles/compiler.dir/utils/command/CompileAssemblyCommand.cpp.o
- /home/hlr/dev/myproject/compiler/utils/command/Command.h
- /home/hlr/dev/myproject/compiler/utils/command/CompileAssemblyCommand.cpp
- /home/hlr/dev/myproject/compiler/utils/command/CompileAssemblyCommand.h
+CMakeFiles/compiler.dir/utils/command/CommandUtils.cpp.o
+ /home/hlr/dev/myproject/compiler/utils/command/CommandUtils.cpp
+ /home/hlr/dev/myproject/compiler/utils/command/CommandUtils.h

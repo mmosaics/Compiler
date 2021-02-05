@@ -14,7 +14,7 @@ public:
     virtual void setType(TokenType type) = 0;
     virtual TokenValue value() = 0;
     virtual void setValue(TokenValue value) = 0;
-    virtual ~Token() = 0;
+    virtual ~Token() = default;
 };
 
 

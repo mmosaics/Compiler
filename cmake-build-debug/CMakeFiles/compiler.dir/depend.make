@@ -10,13 +10,49 @@ CMakeFiles/compiler.dir/compiler/Options.cpp.o: ../compiler/Options.h
 CMakeFiles/compiler.dir/main.cpp.o: ../main.cpp
 CMakeFiles/compiler.dir/main.cpp.o: ../utils/command/Command.h
 CMakeFiles/compiler.dir/main.cpp.o: ../utils/command/CommandInvoker.h
-CMakeFiles/compiler.dir/main.cpp.o: ../utils/command/CompileAssemblyCommand.h
+
+CMakeFiles/compiler.dir/parser/Impl/SimpleLexer.cpp.o: ../parser/Impl/SimpleLexer.cpp
+CMakeFiles/compiler.dir/parser/Impl/SimpleLexer.cpp.o: ../parser/Impl/SimpleLexer.h
+CMakeFiles/compiler.dir/parser/Impl/SimpleLexer.cpp.o: ../parser/Lexer.h
+CMakeFiles/compiler.dir/parser/Impl/SimpleLexer.cpp.o: ../parser/Token.h
+CMakeFiles/compiler.dir/parser/Impl/SimpleLexer.cpp.o: ../parser/TokenType.h
+CMakeFiles/compiler.dir/parser/Impl/SimpleLexer.cpp.o: ../parser/TokenValue.h
+
+CMakeFiles/compiler.dir/parser/Impl/SimpleToken.cpp.o: ../parser/Impl/SimpleToken.cpp
+CMakeFiles/compiler.dir/parser/Impl/SimpleToken.cpp.o: ../parser/Impl/SimpleToken.h
+CMakeFiles/compiler.dir/parser/Impl/SimpleToken.cpp.o: ../parser/Token.h
+CMakeFiles/compiler.dir/parser/Impl/SimpleToken.cpp.o: ../parser/TokenType.h
+CMakeFiles/compiler.dir/parser/Impl/SimpleToken.cpp.o: ../parser/TokenValue.h
+
+CMakeFiles/compiler.dir/parser/Impl/TopDownParser.cpp.o: ../ast/AST.h
+CMakeFiles/compiler.dir/parser/Impl/TopDownParser.cpp.o: ../parser/Impl/TopDownParser.cpp
+CMakeFiles/compiler.dir/parser/Impl/TopDownParser.cpp.o: ../parser/Impl/TopDownParser.h
+CMakeFiles/compiler.dir/parser/Impl/TopDownParser.cpp.o: ../parser/Lexer.h
+CMakeFiles/compiler.dir/parser/Impl/TopDownParser.cpp.o: ../parser/Parser.h
+CMakeFiles/compiler.dir/parser/Impl/TopDownParser.cpp.o: ../parser/Token.h
+CMakeFiles/compiler.dir/parser/Impl/TopDownParser.cpp.o: ../parser/TokenType.h
+CMakeFiles/compiler.dir/parser/Impl/TopDownParser.cpp.o: ../parser/TokenValue.h
+
+CMakeFiles/compiler.dir/sys/Impl/GNUAssembler.cpp.o: ../sys/Impl/GNUAssembler.cpp
+CMakeFiles/compiler.dir/sys/Impl/GNUAssembler.cpp.o: ../sys/Impl/GNUAssembler.h
+
+CMakeFiles/compiler.dir/sys/Impl/GNUCodeGenerator.cpp.o: ../sys/Impl/GNUCodeGenerator.cpp
+CMakeFiles/compiler.dir/sys/Impl/GNUCodeGenerator.cpp.o: ../sys/Impl/GNUCodeGenerator.h
+
+CMakeFiles/compiler.dir/sys/Impl/GNULinker.cpp.o: ../sys/Impl/GNULinker.cpp
+CMakeFiles/compiler.dir/sys/Impl/GNULinker.cpp.o: ../sys/Impl/GNULinker.h
+
+CMakeFiles/compiler.dir/sys/Impl/X86Linux.cpp.o: ../sys/Assembler.h
+CMakeFiles/compiler.dir/sys/Impl/X86Linux.cpp.o: ../sys/CodeGenerator.h
+CMakeFiles/compiler.dir/sys/Impl/X86Linux.cpp.o: ../sys/Impl/X86Linux.cpp
+CMakeFiles/compiler.dir/sys/Impl/X86Linux.cpp.o: ../sys/Impl/X86Linux.h
+CMakeFiles/compiler.dir/sys/Impl/X86Linux.cpp.o: ../sys/Linker.h
+CMakeFiles/compiler.dir/sys/Impl/X86Linux.cpp.o: ../sys/Platform.h
 
 CMakeFiles/compiler.dir/utils/command/CommandInvoker.cpp.o: ../utils/command/Command.h
 CMakeFiles/compiler.dir/utils/command/CommandInvoker.cpp.o: ../utils/command/CommandInvoker.cpp
 CMakeFiles/compiler.dir/utils/command/CommandInvoker.cpp.o: ../utils/command/CommandInvoker.h
 
-CMakeFiles/compiler.dir/utils/command/CompileAssemblyCommand.cpp.o: ../utils/command/Command.h
-CMakeFiles/compiler.dir/utils/command/CompileAssemblyCommand.cpp.o: ../utils/command/CompileAssemblyCommand.cpp
-CMakeFiles/compiler.dir/utils/command/CompileAssemblyCommand.cpp.o: ../utils/command/CompileAssemblyCommand.h
+CMakeFiles/compiler.dir/utils/command/CommandUtils.cpp.o: ../utils/command/CommandUtils.cpp
+CMakeFiles/compiler.dir/utils/command/CommandUtils.cpp.o: ../utils/command/CommandUtils.h
 

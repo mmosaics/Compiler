@@ -7,12 +7,12 @@
 
 #include <memory>
 #include "Lexer.h"
-#include "../ast/Node.h"
+#include "../ast/AST.h"
 
 class Parser {
 public:
     virtual std::unique_ptr<AST> parse() = 0;
-    virtual ~Parser() = 0;
+    virtual ~Parser() = default;
 };
 
 

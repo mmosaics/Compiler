@@ -1,6 +1,5 @@
 #include <iostream>
 #include <array>
-#include "utils/command/CompileAssemblyCommand.h"
 #include "utils/command/CommandInvoker.h"
 #include <memory>
 
