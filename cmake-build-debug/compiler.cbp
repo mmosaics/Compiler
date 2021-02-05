@@ -8,186 +8,184 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/hlr/dev/myproject/compiler/cmake-build-debug"/>
+				<Option working_dir="/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/hlr/dev/myproject/compiler/cmake-build-debug"/>
+				<Option working_dir="/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/hlr/dev/myproject/compiler/cmake-build-debug"/>
+				<Option working_dir="/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="compiler">
-				<Option output="/home/hlr/dev/myproject/compiler/cmake-build-debug/compiler" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hlr/dev/myproject/compiler/cmake-build-debug"/>
+				<Option output="/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/compiler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 compiler"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 compiler"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="compiler/fast">
-				<Option output="/home/hlr/dev/myproject/compiler/cmake-build-debug/compiler" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hlr/dev/myproject/compiler/cmake-build-debug"/>
+				<Option output="/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/compiler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 compiler/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/hlr/dev/myproject/compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 compiler/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hlr/Inventory/dev/myproject/c_compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hlr/dev/myproject/compiler/ast/AST.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/ast/AST.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/ast/Node.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/ast/Node.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/compiler/Compiler.cpp">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/compiler/Compiler.cpp">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/compiler/Compiler.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/compiler/Compiler.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/compiler/Options.cpp">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/compiler/Options.cpp">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/compiler/Options.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/compiler/Options.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/main.cpp">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/main.cpp">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/parser/Impl/SimpleLexer.cpp">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/parser/Impl/SimpleLexer.cpp">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/parser/Impl/SimpleLexer.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/parser/Impl/SimpleLexer.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/parser/Impl/SimpleToken.cpp">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/parser/Impl/SimpleToken.cpp">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/parser/Impl/SimpleToken.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/parser/Impl/SimpleToken.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/parser/Impl/TopDownParser.cpp">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/parser/Impl/TopDownParser.cpp">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/parser/Impl/TopDownParser.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/parser/Impl/TopDownParser.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/parser/Lexer.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/parser/Lexer.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/parser/Parser.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/parser/Parser.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/parser/Token.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/parser/Token.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/parser/TokenType.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/parser/TokenType.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/parser/TokenValue.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/parser/TokenValue.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/sys/Assembler.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/sys/Assembler.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/sys/CodeGenerator.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/sys/CodeGenerator.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/sys/Impl/GNUAssembler.cpp">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/sys/Impl/GNUAssembler.cpp">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/sys/Impl/GNUAssembler.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/sys/Impl/GNUAssembler.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/sys/Impl/GNUCodeGenerator.cpp">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/sys/Impl/GNUCodeGenerator.cpp">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/sys/Impl/GNUCodeGenerator.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/sys/Impl/GNUCodeGenerator.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/sys/Impl/GNULinker.cpp">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/sys/Impl/GNULinker.cpp">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/sys/Impl/GNULinker.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/sys/Impl/GNULinker.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/sys/Impl/X86Linux.cpp">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/sys/Impl/X86Linux.cpp">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/sys/Impl/X86Linux.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/sys/Impl/X86Linux.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/sys/Linker.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/sys/Linker.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/sys/Platform.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/sys/Platform.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/utils/command/Command.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/utils/command/Command.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/utils/command/CommandInvoker.cpp">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/utils/command/CommandInvoker.cpp">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/utils/command/CommandInvoker.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/utils/command/CommandInvoker.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/utils/command/CommandUtils.cpp">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/utils/command/CommandUtils.cpp">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/utils/command/CommandUtils.h">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/utils/command/CommandUtils.h">
 			<Option target="compiler"/>
 		</Unit>
-		<Unit filename="/home/hlr/dev/myproject/compiler/CMakeLists.txt">
+		<Unit filename="/Users/hlr/Inventory/dev/myproject/c_compiler/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
